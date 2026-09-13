@@ -18,7 +18,7 @@ Our architecture integrates:
 2. **Bench-Out Elimination Heuristics**: Enforcing a strict 2+ basic bench threshold through preemptive search chaining, reducing bench-out defeats from 70% to near zero.
 3. **Hypergeometric Hand Disruption (Strategic Iono Timing)**: Disrupting opponent hand states during their late-game setup, backed by hypergeometric probability analysis and empirical telemetry.
 
-In an exhaustive 700-match benchmark with 50/50 turn parity, our Minimax agent achieved a **79.0% win rate in identical mirror matches** and **59.0% in disadvantageous matchups** against aggressive greedy baselines, operating at an ultra-low latency of **0.6 ms per game**.
+In an exhaustive 700-match benchmark with 50/50 turn parity, our Minimax agent achieved a **79.0% win rate in identical mirror matches** and **59.0% in disadvantageous matchups** against aggressive greedy baselines, at **0.6 ms per game**.
 
 ---
 
@@ -41,7 +41,7 @@ A top-tier competitive deck must harmonize stage evolutions, draw acceleration, 
 |                   | Rare Candy         | 4                  | Basic -> Stage 2    |
 |                   | Switch             | 4                  | Emergency Pivot     |
 | Supporters (12)   | Prof. Research     | 4                  | Digging & Reload    |
-|                   | Iono (ナンジャモ)   | 4                  | Asymmetric Reset    |
+|                   | Iono               | 4                  | Asymmetric Reset    |
 |                   | Boss's Orders      | 4                  | Lethal Disruption   |
 | Energy (19)       | Basic Dark Energy  | 19                 | Steady Attachment   |
 +-------------------+--------------------+--------------------+---------------------+
@@ -56,7 +56,7 @@ A top-tier competitive deck must harmonize stage evolutions, draw acceleration, 
 
 ## 3. Mathematical Foundations: The Iono Dilemma & Hypergeometric Access
 
-A cornerstone of our strategy is **Iono (ナンジャモ)**, which forces both players to return their hands to the deck and draw cards equal to their remaining prizes. 
+A cornerstone of our strategy is **Iono**, which forces both players to return their hands to the deck and draw cards equal to their remaining prizes.
 
 ### 3.1 Hypergeometric Distribution of Iono Accessibility
 Let $N = 60$ (deck size), $K = 4$ (Iono copies), and $n$ be the number of cards drawn without replacement. The probability of drawing at least one Iono ($X \ge 1$) is defined by:
@@ -179,9 +179,9 @@ Kaggle simulation agents frequently forfeit matches due to invalid actions, memo
 
 ### 6.1 Path to 100% Deterministic Search Access
 While our 4-copy Iono engine achieves an 87.0% natural draw rate, competitive play can elevate accessibility to **> 98%** by integrating support-tutor mechanics:
-- **Lumineon V (ルミナスサイン)**: Searchable via Ultra/Nest Ball to tutor any supporter directly from the deck.
-- **Pokégear 3.0**: Item-based top-7 supporter digging without consuming supporter turn actions.
-- **Pidgeot ex (マッハサーチ)**: Stage-2 recurring universal card search.
+- **Lumineon V (Luminous Sign)**: Searchable via Ultra/Nest Ball to tutor any supporter directly from the deck.
+- **Pokégear 3.0**: Item-based top-7 supporter search without consuming the supporter turn slot.
+- **Pidgeot ex (Quick Search)**: Stage-2 recurring universal card search.
 
 ---
 
@@ -189,7 +189,7 @@ While our 4-copy Iono engine achieves an 87.0% natural draw rate, competitive pl
 
 The Pokémon TCG cannot be solved through brute-force aggression or myopic damage maximization. By shifting the objective function from immediate output to **Game-Theoretic Minimax Regret**, our agent systematically prevents bench-out catastrophes, preserves critical energy investments, and weaponizes hand disruption through Iono.
 
-Supported by 700 matches of rigorous empirical verification, 5/5 unit test passes, and reproducible private repository code, this strategy provides a mathematically grounded, tournament-proven submission for the Kaggle PTCG AI Battle Challenge Strategy Competition.
+Supported by 700 matches of empirical verification, 5/5 unit test passes, and reproducible private repository code, this strategy delivers a mathematically grounded, tournament-proven submission for the Kaggle PTCG AI Battle Challenge.
 
 ---
 
