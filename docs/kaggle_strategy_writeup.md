@@ -3,7 +3,7 @@
 **Competition**: The Pokémon Company - PTCG AI Battle Challenge Strategy  
 **Track**: Main Track  
 **Submission Category**: Strategy Writeup (Model 70%, Deck 20%, Report 10%)  
-**Target Repository**: `https://github.com/ymtezo/ptcg-battle-arena` (Private)  
+**Target Repository**: `https://github.com/ymtezo/ptcg-battle-arena` (Public)  
 
 ---
 
