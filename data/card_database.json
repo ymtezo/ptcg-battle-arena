@@ -1,0 +1,224 @@
+{
+  "cards": [
+    {
+      "id": "dark-grimmsnarl-ex",
+      "name": "オーロンゲex (Grimmsnarl ex)",
+      "card_type": "POKEMON",
+      "stage": "STAGE_2",
+      "evolves_from": "ギモー (Morgrem)",
+      "hp": 330,
+      "pokemon_type": "DARK",
+      "prize_value": 2,
+      "retreat_cost": 3,
+      "weakness": "GRASS",
+      "attacks": [
+        {
+          "name": "かげくだき",
+          "energy_cost": ["DARK"],
+          "damage": 60,
+          "bench_damage": 0
+        },
+        {
+          "name": "デスヘアー",
+          "energy_cost": ["DARK", "COLORLESS", "COLORLESS"],
+          "damage": 180,
+          "bench_damage": 30
+        }
+      ]
+    },
+    {
+      "id": "dark-morgrem",
+      "name": "ギモー (Morgrem)",
+      "card_type": "POKEMON",
+      "stage": "STAGE_1",
+      "evolves_from": "ベロバー (Impidimp)",
+      "hp": 90,
+      "pokemon_type": "DARK",
+      "prize_value": 1,
+      "retreat_cost": 2,
+      "weakness": "GRASS",
+      "attacks": [
+        {
+          "name": "ふみつけ",
+          "energy_cost": ["DARK", "COLORLESS"],
+          "damage": 40,
+          "bench_damage": 0
+        }
+      ]
+    },
+    {
+      "id": "dark-impidimp",
+      "name": "ベロバー (Impidimp)",
+      "card_type": "POKEMON",
+      "stage": "BASIC",
+      "evolves_from": null,
+      "hp": 70,
+      "pokemon_type": "DARK",
+      "prize_value": 1,
+      "retreat_cost": 1,
+      "weakness": "GRASS",
+      "attacks": [
+        {
+          "name": "ひっかく",
+          "energy_cost": ["DARK"],
+          "damage": 20,
+          "bench_damage": 0
+        }
+      ]
+    },
+    {
+      "id": "colorless-rotom-v",
+      "name": "ロトムV (Rotom V)",
+      "card_type": "POKEMON",
+      "stage": "BASIC",
+      "evolves_from": null,
+      "hp": 190,
+      "pokemon_type": "COLORLESS",
+      "prize_value": 2,
+      "retreat_cost": 1,
+      "weakness": "FIGHTING",
+      "attacks": [
+        {
+          "name": "エレキスロット",
+          "energy_cost": ["COLORLESS"],
+          "damage": 30,
+          "bench_damage": 0
+        }
+      ]
+    },
+    {
+      "id": "lightning-miraidon-ex",
+      "name": "ミライドンex (Miraidon ex)",
+      "card_type": "POKEMON",
+      "stage": "BASIC",
+      "evolves_from": null,
+      "hp": 220,
+      "pokemon_type": "LIGHTNING",
+      "prize_value": 2,
+      "retreat_cost": 1,
+      "weakness": "FIGHTING",
+      "attacks": [
+        {
+          "name": "フォトンブラスター",
+          "energy_cost": ["LIGHTNING", "LIGHTNING", "COLORLESS"],
+          "damage": 220,
+          "bench_damage": 0
+        }
+      ]
+    },
+    {
+      "id": "lightning-mareep",
+      "name": "メリープ (Mareep)",
+      "card_type": "POKEMON",
+      "stage": "BASIC",
+      "evolves_from": null,
+      "hp": 60,
+      "pokemon_type": "LIGHTNING",
+      "prize_value": 1,
+      "retreat_cost": 1,
+      "weakness": "FIGHTING",
+      "attacks": [
+        {
+          "name": "ショック",
+          "energy_cost": ["LIGHTNING"],
+          "damage": 20,
+          "bench_damage": 0
+        }
+      ]
+    },
+    {
+      "id": "lightning-flaaffy",
+      "name": "モココ (Flaaffy)",
+      "card_type": "POKEMON",
+      "stage": "STAGE_1",
+      "evolves_from": "メリープ (Mareep)",
+      "hp": 90,
+      "pokemon_type": "LIGHTNING",
+      "prize_value": 1,
+      "retreat_cost": 2,
+      "weakness": "FIGHTING",
+      "attacks": [
+        {
+          "name": "エレキボール",
+          "energy_cost": ["LIGHTNING", "COLORLESS"],
+          "damage": 50,
+          "bench_damage": 0
+        }
+      ]
+    },
+    {
+      "id": "lightning-raichu-v",
+      "name": "ライチュウV (Raichu V)",
+      "card_type": "POKEMON",
+      "stage": "BASIC",
+      "evolves_from": null,
+      "hp": 200,
+      "pokemon_type": "LIGHTNING",
+      "prize_value": 2,
+      "retreat_cost": 1,
+      "weakness": "FIGHTING",
+      "attacks": [
+        {
+          "name": "ダイナミックスパーク",
+          "energy_cost": ["LIGHTNING", "LIGHTNING"],
+          "damage": 120,
+          "bench_damage": 0
+        }
+      ]
+    },
+    {
+      "id": "trainer-nest-ball",
+      "name": "ネストボール (Nest Ball)",
+      "card_type": "TRAINER_ITEM",
+      "effect": "SEARCH_BASIC_TO_BENCH"
+    },
+    {
+      "id": "trainer-ultra-ball",
+      "name": "ハイパーボール (Ultra Ball)",
+      "card_type": "TRAINER_ITEM",
+      "effect": "SEARCH_ANY_POKEMON"
+    },
+    {
+      "id": "trainer-switch",
+      "name": "ポケモンいれかえ (Switch)",
+      "card_type": "TRAINER_ITEM",
+      "effect": "SWITCH_ACTIVE_WITH_BENCH"
+    },
+    {
+      "id": "trainer-rare-candy",
+      "name": "ふしぎなアメ (Rare Candy)",
+      "card_type": "TRAINER_ITEM",
+      "effect": "EVOLVE_BASIC_TO_STAGE2"
+    },
+    {
+      "id": "trainer-prof-research",
+      "name": "博士の研究 (Professor's Research)",
+      "card_type": "TRAINER_SUPPORTER",
+      "effect": "DISCARD_AND_DRAW_7"
+    },
+    {
+      "id": "trainer-iono",
+      "name": "ナンジャモ (Iono)",
+      "card_type": "TRAINER_SUPPORTER",
+      "effect": "HAND_TO_DECK_DRAW_PRIZES"
+    },
+    {
+      "id": "trainer-boss-orders",
+      "name": "ボスの指令 (Boss's Orders)",
+      "card_type": "TRAINER_SUPPORTER",
+      "effect": "SWITCH_OPPONENT_ACTIVE"
+    },
+    {
+      "id": "energy-dark",
+      "name": "基本悪エネルギー (Basic Dark Energy)",
+      "card_type": "ENERGY",
+      "energy_type": "DARK"
+    },
+    {
+      "id": "energy-lightning",
+      "name": "基本雷エネルギー (Basic Lightning Energy)",
+      "card_type": "ENERGY",
+      "energy_type": "LIGHTNING"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "decks": {
+    "grimmsnarl_control": {
+      "name": "オーロンゲex コントロール (Grimmsnarl ex Control)",
+      "description": "High HP stage-2 tank with spread damage and hand disruption",
+      "cards": [
+        {"id": "dark-impidimp", "count": 4},
+        {"id": "dark-morgrem", "count": 4},
+        {"id": "dark-grimmsnarl-ex", "count": 3},
+        {"id": "colorless-rotom-v", "count": 2},
+        {"id": "trainer-nest-ball", "count": 4},
+        {"id": "trainer-ultra-ball", "count": 4},
+        {"id": "trainer-rare-candy", "count": 4},
+        {"id": "trainer-switch", "count": 4},
+        {"id": "trainer-prof-research", "count": 4},
+        {"id": "trainer-iono", "count": 4},
+        {"id": "trainer-boss-orders", "count": 4},
+        {"id": "energy-dark", "count": 19}
+      ]
+    },
+    "miraidon_aggro": {
+      "name": "ミライドンex 高速アグロ (Miraidon ex Turbo Aggro)",
+      "description": "Fast heavy-hitting basic and stage-1 lightning attackers",
+      "cards": [
+        {"id": "lightning-miraidon-ex", "count": 3},
+        {"id": "lightning-raichu-v", "count": 3},
+        {"id": "lightning-mareep", "count": 4},
+        {"id": "lightning-flaaffy", "count": 4},
+        {"id": "colorless-rotom-v", "count": 2},
+        {"id": "trainer-nest-ball", "count": 4},
+        {"id": "trainer-ultra-ball", "count": 4},
+        {"id": "trainer-switch", "count": 4},
+        {"id": "trainer-prof-research", "count": 4},
+        {"id": "trainer-iono", "count": 4},
+        {"id": "trainer-boss-orders", "count": 4},
+        {"id": "energy-lightning", "count": 20}
+      ]
+    }
+  }
+}
